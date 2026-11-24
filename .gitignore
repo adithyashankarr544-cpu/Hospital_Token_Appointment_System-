@@ -1,0 +1,26 @@
+# Python virtual environments and bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local SQLite databases and database backups (may contain patient records)
+*.db
+*.sqlite
+*.sqlite3
+*.db-*
+*.sqlite-*
+backups/
+
+# Logs and local environment secrets
+*.log
+.env
+.env.*
+
+# Editor and operating-system files
+.vscode/.ropeproject/
+.idea/
+.DS_Store
+Thumbs.db
